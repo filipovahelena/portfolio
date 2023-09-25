@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+.top {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#d2e0fb, #8eaccd);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.headline {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: white;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#name {
+  font-family: "Karla", sans-serif;
+}
+h2 {
+  font-family: "Karla", sans-serif;
+}
+p {
+  font-family: "Karla", sans-serif;
+}
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#carousel {
+  width: 500px;
+}
+#education {
+  text-align: center;
+}
